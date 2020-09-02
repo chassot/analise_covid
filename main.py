@@ -41,8 +41,8 @@ ax1.plot(cidade5['last_available_date'],cidade5['last_available_confirmed'],labe
 
 ax1.legend()
 
-plt.title('Gráfico 01: Casos confirmados de COVID por dia',fontsize=16,color="black",alpha=2)
-plt.xlabel('Data (ano-mês)',size = 14,color="black")
-plt.ylabel('Acumulado de casos reportados',size = 14,color="black")
+plt.title('Total de casos confirmados por dia. Fonte:https://brasil.io/dataset/covid19/boletim/',fontsize=16,color="black",alpha=2)
+plt.xlabel('Mês em 2020',size = 14,color="black")
+plt.ylabel('Acumulado de casos confirmados',size = 14,color="black")
 plt.grid()
 plt.show
